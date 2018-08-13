@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsCheck.GraphQL", "FsCheck.GraphQL\FsCheck.GraphQL.fsproj", "{C0DAC802-20CC-4917-874B-29D3397FD85D}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FsCheck.GraphQL", "src\FsCheck.GraphQL\FsCheck.GraphQL.fsproj", "{E590F15F-4F2F-466D-BD66-315B23AEA9A0}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FsCheck.GraphQL.Tests", "tests\FsCheck.GraphQL.Tests\FsCheck.GraphQL.Tests.fsproj", "{7B9A6A8F-9694-42F9-B0F2-8990C4DFB389}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C0DAC802-20CC-4917-874B-29D3397FD85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0DAC802-20CC-4917-874B-29D3397FD85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0DAC802-20CC-4917-874B-29D3397FD85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0DAC802-20CC-4917-874B-29D3397FD85D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E590F15F-4F2F-466D-BD66-315B23AEA9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E590F15F-4F2F-466D-BD66-315B23AEA9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E590F15F-4F2F-466D-BD66-315B23AEA9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E590F15F-4F2F-466D-BD66-315B23AEA9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9A6A8F-9694-42F9-B0F2-8990C4DFB389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9A6A8F-9694-42F9-B0F2-8990C4DFB389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9A6A8F-9694-42F9-B0F2-8990C4DFB389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9A6A8F-9694-42F9-B0F2-8990C4DFB389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

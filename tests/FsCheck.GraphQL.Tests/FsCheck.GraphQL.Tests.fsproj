@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="GraphQLTestObjectTests.fs" />
+    <Compile Include="ShrinkerTests.fs" />
+    <Compile Include="QueryTestArbitraryTests.fs" />
+    <Compile Include="ArgumentsTests.fs" />
+    <Compile Include="PrintersTests.fs" />
+    <Compile Include="FieldsTestsForComplexTypes.fs" />
+    <Compile Include="TypesTests.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
+    <PackageReference Include="Unquote" Version="4.0.0" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+    <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
+    <PackageReference Include="GraphQL" Version="2.0.0-alpha-951" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\FsCheck.GraphQL\FsCheck.GraphQL.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.5.1" />
+  </ItemGroup>
+
+</Project>

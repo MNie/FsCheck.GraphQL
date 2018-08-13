@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Models.fs" />
+    <Compile Include="Shrinker.fs" />
+    <Compile Include="Printers.fs" />
+    <Compile Include="Types.fs" />
+    <Compile Include="Fields.fs" />
+    <Compile Include="Arguments.fs" />
+    <Compile Include="QueryTestArbitrary.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FsCheck" Version="2.11.0" />
+    <PackageReference Include="GraphQL" Version="2.0.0-alpha-951" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.5.1" />
+  </ItemGroup>
+
+</Project>
