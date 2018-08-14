@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Authors>Michał Niegrzybowski</Authors>
+    <Company>Michał Niegrzybowski - MNie</Company>
+    <PackageId>FsCheck.GraphQL</PackageId>
+    <Product>FsCheck.GraphQL</Product>
+    <Description>Set of generic arbitraries to help test graphQL queries and mutations.</Description>
+    <Copyright>Michał Niegrzybowski</Copyright>
+    <PackageLicenseUrl>https://github.com/MNie/fscheck.graphql/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/MNie/fscheck.graphql</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MNie/fscheck.graphql</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>FsCheck, GraphQL, Random Testing, Propery-Based Testing, Functional Programming, Testing</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
