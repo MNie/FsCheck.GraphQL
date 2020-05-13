@@ -1,4 +1,4 @@
-# FsCheck.GraphQL
+# FsCheck.GraphQL [![NuGet](https://buildstats.info/nuget/FsCheck.GraphQL?includePreReleases=true)](https://www.nuget.org/packages/FsCheck.GraphQL)
 
 A library which helps to create GraphQL queries for FsCheck tests.
 
